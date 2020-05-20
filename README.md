@@ -18,7 +18,6 @@ features](#how-to-disable-paid-features) to disable them). The [trial license][t
 Based on the official Docker images from Elastic:
 
 * [Elasticsearch](https://github.com/elastic/elasticsearch/tree/master/distribution/docker)
-* [Logstash](https://github.com/elastic/logstash/tree/master/docker)
 * [Kibana](https://github.com/elastic/kibana/tree/master/src/dev/build/tasks/os_packages/docker_generator)
 
 The Default Search Guard configuration in this repo is:
