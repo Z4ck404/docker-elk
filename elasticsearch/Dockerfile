@@ -19,3 +19,10 @@ ENV JAVA_HOME /usr/share/elasticsearch/jdk
 
 # Add your elasticsearch plugins setup here
 # Example: RUN elasticsearch-plugin install analysis-icu
+## ES-Hadoop here
+#RUN apk update 
+RUN yum -y upgrade
+RUN yum -y install wget
+RUN wget https://artifacts.elastic.co/downloads/elasticsearch-hadoop/elasticsearch-hadoop-7.6.2.zip
+RUN yum install unzip
+RUN unzip elasticsearch-hadoop-7.6.2.zip
