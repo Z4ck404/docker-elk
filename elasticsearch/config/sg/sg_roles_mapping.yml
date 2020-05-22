@@ -14,8 +14,11 @@ _sg_meta:
 SGS_ALL_ACCESS:
   reserved: true
   backend_roles:
-  - "admin"
+    - "admin"
   description: "Maps admin to SGS_ALL_ACCESS"
+  users:
+    - admin
+    - zack
 
 SGS_OWN_INDEX:
   reserved: false
